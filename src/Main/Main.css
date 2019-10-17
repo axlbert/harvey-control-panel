@@ -2,7 +2,6 @@
   width: var(--container-width, 960px);
   height: 480px;
   margin: 0 auto;
-  border: 1px solid gray;
   color: white;
 }
 
