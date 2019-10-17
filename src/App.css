@@ -6,6 +6,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-width: fit-content;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
   min-height: 100vh;
   background-color: rgb(31, 29, 39);
 }
