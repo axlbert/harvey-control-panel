@@ -24,6 +24,7 @@
 }
 
 .Header-LogoutLink {
+  margin-right: 1rem;
   color: white !important;
   font-weight: 300;
 }

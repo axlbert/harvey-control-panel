@@ -1,10 +1,11 @@
 import React from 'react';
 
+import './Directions.css';
 import ArrowButton from '../../ArrowButton/ArrowButton';
 
 export default function Directions() {
   return (
-    <table>
+    <table className="Directions">
       <tbody>
         <tr>
           <td></td>
