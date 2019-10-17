@@ -16,8 +16,3 @@
   height: calc(100vh - 14rem);
   background-color: rgb(31, 29, 39);
 }
-
-.App-Footer {
-  background-color: rgb(26, 24, 33);
-  height: 10rem;
-}

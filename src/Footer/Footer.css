@@ -1,0 +1,27 @@
+.Footer {
+  display: flex;
+  align-items: center;
+  background-color: rgb(26, 24, 33);
+  height: 10rem;
+  color: white;
+}
+
+.Footer-Table {
+  width: 100%;
+  border-spacing: 1rem .25rem;
+}
+
+.Footer-Th {
+  font-weight: 300;
+  text-align: left;
+}
+
+.Footer-Td {
+  padding: 1.25rem;
+  background-color: rgb(31, 29, 39);
+  font-size: 2.25rem;
+  text-align: center;
+}
+.Footer-Td_extraLight {
+  font-weight: 200;
+}
