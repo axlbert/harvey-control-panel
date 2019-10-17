@@ -9,7 +9,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Main />
+      <div style={{ margin: '1rem' }}>
+        <Main />
+      </div>
       <Footer />
     </div>
   );
