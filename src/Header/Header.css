@@ -1,0 +1,29 @@
+.Header {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  background: linear-gradient(
+    to right,
+    rgb(26, 24, 33),
+    rgb(56, 53, 68)
+  );
+  color: white;
+}
+
+.Header-Inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.Header-Brand {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.Header-LogoutLink {
+  color: white !important;
+  font-weight: 300;
+}

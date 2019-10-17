@@ -1,16 +1,14 @@
 import React from 'react';
-import { Container } from '@material-ui/core';
 
 import './App.css';
-import Footer from './Footer/Footer';
+import Header from './Header/Header';
 import Main from './Main2/Main';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-Header">
-        <Container>harvey.one</Container>
-      </header>
+      <Header />
       <Main />
       <Footer />
     </div>

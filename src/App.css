@@ -5,13 +5,3 @@
   min-height: 100vh;
   background-color: rgb(31, 29, 39);
 }
-
-.App-Header {
-  display: flex;
-  align-items: center;
-  height: 4rem;
-  background: linear-gradient(to right, rgb(26, 24, 33), rgb(56, 53, 68));
-  color: white;
-  font-size: 1.5rem;
-  font-weight: 300;
-}
