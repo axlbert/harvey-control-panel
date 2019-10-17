@@ -3,6 +3,7 @@ import { Container } from '@material-ui/core';
 
 import './App.css';
 import Footer from './Footer/Footer';
+import Main from './Main/Main';
 
 function App() {
   return (
@@ -10,9 +11,7 @@ function App() {
       <header className="App-Header">
         <Container>harvey.one</Container>
       </header>
-      <main className="App-Main">
-        <Container>Main</Container>
-      </main>
+      <Main />
       <Footer />
     </div>
   );
