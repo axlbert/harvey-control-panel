@@ -3,6 +3,7 @@ import React from 'react';
 import './Main.css';
 import Belts from './Belts/Belts';
 import Video from './Video/Video';
+import VideoControls from './VideoControls/VideoControls';
 
 export default function Main() {
   return (
@@ -12,10 +13,12 @@ export default function Main() {
           <Belts />
         </div>
         <div className="Main-Right">
-          <div>GPS Map</div>
+          <div style={{ marginBottom: '.5rem', fontWeight: 300 }}>GPS Map</div>
           <Video />
           <div className="Main-VideoSeparator"></div>
           <Video />
+          <div style={{ marginTop: '1rem' }}></div>
+          <VideoControls />
         </div>
       </div>
     </main>
