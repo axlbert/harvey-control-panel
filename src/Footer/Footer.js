@@ -1,12 +1,11 @@
 import React from 'react';
-import { Container } from '@material-ui/core';
 
 import './Footer.css';
 
 export default function Footer() {
   return (
     <footer className="Footer">
-      <Container>
+      <div className="Footer-Inner">
         <table className="Footer-Table">
           <thead>
             <tr>
@@ -41,7 +40,7 @@ export default function Footer() {
             </tr>
           </tbody>
         </table>
-      </Container>
+      </div>
     </footer>
   );
 }

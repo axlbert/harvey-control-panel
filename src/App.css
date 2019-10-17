@@ -1,3 +1,7 @@
+:root {
+  --container-width: 960px;
+}
+
 .App {
   display: flex;
   flex-direction: column;
