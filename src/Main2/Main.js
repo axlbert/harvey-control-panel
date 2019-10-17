@@ -6,7 +6,8 @@ export default function Main() {
   return (
     <main className="Main">
       <div className="Main-Inner">
-        Main
+        <div className="Main-Left">Left</div>
+        <div className="Main-Right">Right</div>
       </div>
     </main>
   );
