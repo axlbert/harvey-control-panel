@@ -3,7 +3,7 @@ import { Container } from '@material-ui/core';
 
 import './App.css';
 import Footer from './Footer/Footer';
-import Main from './Main/Main';
+import Main from './Main2/Main';
 
 function App() {
   return (
