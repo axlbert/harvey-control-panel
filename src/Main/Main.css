@@ -13,6 +13,7 @@
 
 .Main-Left {
   display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   border-right: 1px solid rgb(38, 36, 47);
   width: 570px;
@@ -21,7 +22,13 @@
 
 .Main-Right {
   display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   width: 390px;
   padding-left: 43px;
+}
+
+.Main-VideoSeparator {
+  margin: 1.5rem 0;
+  border-top: 1px solid rgb(38, 36, 47);
 }

@@ -2,6 +2,7 @@ import React from 'react';
 
 import './Main.css';
 import Belts from './Belts/Belts';
+import Video from './Video/Video';
 
 export default function Main() {
   return (
@@ -10,7 +11,12 @@ export default function Main() {
         <div className="Main-Left">
           <Belts />
         </div>
-        <div className="Main-Right">Right</div>
+        <div className="Main-Right">
+          <div>GPS Map</div>
+          <Video />
+          <div className="Main-VideoSeparator"></div>
+          <Video />
+        </div>
       </div>
     </main>
   );
