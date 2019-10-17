@@ -11,10 +11,10 @@
 }
 
 .Main-Left {
-  width: 50%;
+  width: 55%;
 }
 .Main-Right {
-  width: 40%;
+  width: 35%;
 }
 
 .Main-Text {
@@ -41,4 +41,11 @@
 .Main-VideoSeparator {
   margin: 1.5rem 0;
   border-top: 1px solid rgb(31, 29, 39);
+}
+
+.Main-VideoControls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
 }
