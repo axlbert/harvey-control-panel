@@ -5,7 +5,7 @@ import image from './arrow-button.png';
 export default function ArrowButton() {
   return (
     <div>
-      <img src={image} alt="ArrowButton Image" />
+      <img src={image} alt="ArrowButton" />
     </div>
   );
 }
