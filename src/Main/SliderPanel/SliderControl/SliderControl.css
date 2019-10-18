@@ -1,4 +1,4 @@
-.Belt {
+.SliderControl {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -6,24 +6,24 @@
   padding-left: 1rem;
 }
 
-.Belt-Separator {
+.SliderControl-Separator {
   display: flex;
   height: 100%;
   border-left: 1px solid rgb(38, 36, 47);
 }
 
-.Belt-Name {
+.SliderControl-Name {
   font-weight: 300;
 }
 
-.Belt-SliderContainer {
+.SliderControl-SliderContainer {
   display: flex;
   align-items: center;
-  width: 18rem;
+  width: 19rem;
 }
 
-.Belt-SliderMark {
-  width: 3rem;
+.SliderControl-Mark {
+  width: 4rem;
   text-align: center;
   color: rgb(69, 67, 80);
 }

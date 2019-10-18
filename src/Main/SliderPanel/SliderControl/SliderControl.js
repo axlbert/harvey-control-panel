@@ -14,14 +14,14 @@ export default function SliderControl() {
   };
 
   return (
-    <div className="Belt">
+    <div className="SliderControl">
       <img src={onOff} />
-      <div className="Belt-Separator"></div>
-      <div className="Belt-Name">Belt 1</div>
-      <div className="Belt-SliderContainer">
-        <div className="Belt-SliderMark">-</div>
+      <div className="SliderControl-Separator"></div>
+      <div className="SliderControl-Name">Belt 1</div>
+      <div className="SliderControl-SliderContainer">
+        <div className="SliderControl-Mark">-</div>
         <StyledSlider value={value} onChange={handleChange} track={false} />
-        <div className="Belt-SliderMark">+</div>
+        <div className="SliderControl-Mark">+</div>
       </div>
     </div>
   );
