@@ -1,30 +1,9 @@
 import React from 'react';
-import { Slider } from '@material-ui/core';
-import { withStyles } from '@material-ui/core/styles';
 
 import './SliderControl.css';
+import StyledSlider from './StyledSlider';
 
 import onOff from './on-off-small.png';
-import thumb from './thumb.png';
-
-const CssSlider = withStyles({
-  root: {
-    '& .MuiSlider-thumb': {
-      width: 30,
-      height: 30,
-      marginTop: -14,
-      marginLeft: -14,
-      color: 'transparent',
-      backgroundImage: `url(${thumb})`,
-      backgroundRepeat: 'no-repeat',
-    },
-    '& .MuiSlider-rail': {
-      height: 12,
-      marginTop: -5,
-      color: 'rgb(38, 36, 47)',
-    },
-  },
-})(Slider);
 
 export default function SliderControl() {
   const [value, setValue] = React.useState(30);
@@ -41,7 +20,7 @@ export default function SliderControl() {
       <div className="Belt-Name">Belt 1</div>
       <div className="Belt-SliderContainer">
         <div className="Belt-SliderMark">-</div>
-        <CssSlider value={value} onChange={handleChange} track={false} />
+        <StyledSlider value={value} onChange={handleChange} track={false} />
         <div className="Belt-SliderMark">+</div>
       </div>
     </div>
