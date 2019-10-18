@@ -1,4 +1,7 @@
 .ArrowButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 36px;
   height: 36px;
   border: none;
@@ -10,5 +13,5 @@
 
 .ArrowButton-Icon {
   color: rgba(255, 255, 255, .5);
-  line-height: 1.5;
+  line-height: 1;
 }

@@ -16,17 +16,17 @@ export default function Directions() {
         </tr>
         <tr>
           <td>
-            <ArrowButton />
+            <ArrowButton direction="left" />
           </td>
           <td></td>
           <td>
-            <ArrowButton />
+            <ArrowButton direction="right" />
           </td>
         </tr>
         <tr>
           <td></td>
           <td>
-            <ArrowButton />
+            <ArrowButton direction="down" />
           </td>
           <td></td>
         </tr>

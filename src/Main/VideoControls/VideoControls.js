@@ -6,9 +6,9 @@ import ArrowButton from '../ArrowButton/ArrowButton';
 export default function VideoControls() {
   return (
     <div className="VideoControls">
-      <ArrowButton />
+      <ArrowButton direction="left" />
       <span style={{ fontWeight: 300 }}>Camera Front</span>
-      <ArrowButton />
+      <ArrowButton direction="right" />
     </div>
   );
 }
