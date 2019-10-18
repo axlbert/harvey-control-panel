@@ -14,6 +14,7 @@ const StyledSwitch = withStyles({
     height: 21,
     marginLeft: 0,
     marginRight: 0,
+    backgroundColor: 'rgb(38, 36, 47)',
   },
 })(Switch);
 
