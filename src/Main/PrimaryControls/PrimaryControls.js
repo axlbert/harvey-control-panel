@@ -9,7 +9,6 @@ export default function PrimaryControls() {
   return (
     <div className="PrimaryControls">
       <OnOffButton large />
-      <OnOffButton />
       <div>Auto-Steer</div>
       <Directions />
     </div>
