@@ -3,12 +3,12 @@ import React from 'react';
 import './PrimaryControls.css';
 import Directions from './Directions/Directions';
 
-import OnOffButton from '../OnOffButton/OnOffButton';
+import ConnectedOnOffButton from '../OnOffButton/ConnectedOnOffButton';
 
 export default function PrimaryControls() {
   return (
     <div className="PrimaryControls">
-      <OnOffButton large />
+      <ConnectedOnOffButton large />
       <div>Auto-Steer</div>
       <Directions />
     </div>
