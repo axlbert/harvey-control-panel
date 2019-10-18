@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
+
 import OnOffButton from './OnOffButton';
 
 export default function ConnectedOnOffButton({ ...props }) {
+  const [active, setActive] = useState(false);
+
   function handleClick() {
-    console.log('Connected clicked');
+    setActive(x => !x);
   }
-  return <OnOffButton {...props} onClick={handleClick} />;
+
+  return <OnOffButton
+    active={active}
+    onClick={handleClick}
+    {...props}
+  />;
 }
