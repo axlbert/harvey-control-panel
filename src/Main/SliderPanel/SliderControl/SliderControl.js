@@ -2,7 +2,7 @@ import React from 'react';
 import { Slider } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 
-import './Belt.css';
+import './SliderControl.css';
 
 import onOff from './on-off-small.png';
 import thumb from './thumb.png';
@@ -26,7 +26,7 @@ const CssSlider = withStyles({
   },
 })(Slider);
 
-export default function Belt() {
+export default function SliderControl() {
   const [value, setValue] = React.useState(30);
 
   const handleChange = (event, newValue) => {
