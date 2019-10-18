@@ -1,0 +1,14 @@
+.ArrowButton {
+  width: 36px;
+  height: 36px;
+  border: none;
+  outline: none;
+  padding: 0;
+  background-color: transparent;
+  background-size: contain;
+}
+
+.ArrowButton-Icon {
+  color: rgba(255, 255, 255, .5);
+  line-height: 1.5;
+}
