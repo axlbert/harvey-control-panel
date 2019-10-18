@@ -13,6 +13,7 @@ const StyledSlider = withStyles({
       color: 'transparent',
       backgroundImage: `url(${thumb})`,
       backgroundRepeat: 'no-repeat',
+      boxShadow: 'none',
     },
     '& .MuiSlider-rail': {
       height: 12,
