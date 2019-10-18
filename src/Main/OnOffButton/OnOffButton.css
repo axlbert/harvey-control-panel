@@ -6,6 +6,11 @@
   background: none;
 }
 
+.OnOffButton_large {
+  width: 80px !important;
+  height: 80px !important;
+}
+
 .OnOffButton-Image {
   width: 100%;
   height: 100%;
