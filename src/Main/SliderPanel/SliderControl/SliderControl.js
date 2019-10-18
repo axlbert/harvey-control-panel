@@ -2,7 +2,7 @@ import React from 'react';
 
 import './SliderControl.css';
 import StyledSlider from './StyledSlider';
-import OnOffButton from '../../OnOffButton/OnOffButton';
+import ConnectedOnOffButton from '../../OnOffButton/ConnectedOnOffButton';
 
 export default function SliderControl({ name, currentValue }) {
   const [value, setValue] = React.useState(currentValue);
@@ -14,7 +14,7 @@ export default function SliderControl({ name, currentValue }) {
 
   return (
     <div className="SliderControl">
-      <OnOffButton />
+      <ConnectedOnOffButton />
       <div className="SliderControl-Separator"></div>
       <div className="SliderControl-Name">{ name }</div>
       <div className="SliderControl-SliderContainer">
