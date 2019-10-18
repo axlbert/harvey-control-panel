@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Main.css';
-import Belts from './Belts/Belts';
+import SliderPanel from './SliderPanel/SliderPanel';
 import Video from './Video/Video';
 import VideoControls from './VideoControls/VideoControls';
 import PrimaryControls from './PrimaryControls/PrimaryControls';
@@ -11,7 +11,7 @@ export default function Main() {
     <main className="Main">
       <div className="Main-Inner">
         <div className="Main-Left">
-          <Belts />
+          <SliderPanel />
           <PrimaryControls />
         </div>
         <div className="Main-Right">

@@ -1,11 +1,11 @@
 import React from 'react';
 
-import './Belts.css';
+import './SliderPanel.css';
 import Belt from './Belt/Belt';
 
-export default function Belts() {
+export default function SliderPanel() {
   return (
-    <div className="Belts">
+    <div className="SliderPanel">
       <Belt />
       <Belt />
       <Belt />
