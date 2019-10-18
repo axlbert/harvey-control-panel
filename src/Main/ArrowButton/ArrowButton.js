@@ -1,13 +1,8 @@
 import React from 'react';
 
 import './ArrowButton.css';
-import gray from './button-gray.png';
 
 export default function ArrowButton({ direction }) {
-  function handleClick() {
-    console.log('arrow button clicked');
-  }
-
   function getDirectionIcon() {
     switch (direction) {
       case 'left': return 'keyboard_arrow_left';
@@ -17,9 +12,8 @@ export default function ArrowButton({ direction }) {
     }
   }
 
-  const buttonStyle = { backgroundImage: `url(${gray})` };
   return (
-    <button className="ArrowButton" style={buttonStyle} onClick={handleClick}>
+    <button className='ArrowButton'>
       <span className="ArrowButton-Icon material-icons">
         { getDirectionIcon() }
       </span>

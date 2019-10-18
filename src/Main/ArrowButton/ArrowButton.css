@@ -8,7 +8,13 @@
   outline: none;
   padding: 0;
   background-color: transparent;
+  background-image: url('./button-gray.png');
   background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.ArrowButton:active {
+  background-image: url('./button-green.png');
 }
 
 .ArrowButton-Icon {
