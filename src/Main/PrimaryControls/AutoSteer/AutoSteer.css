@@ -1,0 +1,32 @@
+.CustomSwitch {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.CustomSwitch-Track {
+  position: relative;
+  width: 55px;
+  height: 22px;
+  border-radius: 11px;
+  background-color: rgb(38, 36, 47);
+  box-shadow: 2px 2px 3px rgb(26, 24, 33) inset;
+}
+
+.CustomSwitch-Thumb {
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  width: 36px;
+  height: 36px;
+  transition: 50ms ease left;
+}
+.CustomSwitch-Thumb_active {
+  left: 26px !important;
+}
+
+.CustomSwitch-Label {
+  margin-left: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+}

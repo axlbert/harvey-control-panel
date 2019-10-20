@@ -1,28 +1,9 @@
 import React, { useState } from 'react';
-import { FormControlLabel, Switch } from '@material-ui/core';
-import { withStyles } from '@material-ui/core/styles';
+
+import './AutoSteer.css';
 
 import gray from './thumb-gray.png';
 import green from './thumb-green.png';
-
-const StyledSwitch = withStyles({
-  root: {
-    width: 85,
-    height: 40,
-  },
-  track: {
-    height: 21,
-    marginLeft: 0,
-    marginRight: 0,
-    backgroundColor: 'rgb(38, 36, 47)',
-  },
-})(Switch);
-
-const thumbStyles = {
-  width: 37,
-  height: 37,
-  marginTop: -6,
-};
 
 export default function AutoSteer() {
   const [active, setActive] = useState(false);
@@ -31,21 +12,21 @@ export default function AutoSteer() {
     setActive(x => !x);
   }
 
-  function SwitchControl() {
-    return <StyledSwitch
-      checked={active}
-      onChange={handleToggle}
-      icon={<img src={gray} style={thumbStyles} alt="Off" />}
-      checkedIcon={<img src={green} style={thumbStyles} alt="On" />}
-    />
-  }
-
+  const thumbClassName = 
+    `CustomSwitch-Thumb ${active && 'CustomSwitch-Thumb_active'}`;
+  const thumbImgSrc = active ? green : gray;
   return (
     <div>
-      <FormControlLabel
-        control={<SwitchControl />}
-        label="Auto-Steer"
-      />
+      <div className="CustomSwitch" onClick={handleToggle}>
+        <div className="CustomSwitch-Track">
+          <img
+            className={thumbClassName}
+            src={thumbImgSrc}
+            alt="Toggle Auto-Steer"
+          />
+        </div>
+        <div className="CustomSwitch-Label">Auto-Steer</div>
+      </div>
     </div>
   );
 }
