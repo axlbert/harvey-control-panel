@@ -24,6 +24,7 @@ export default function LoginForm() {
           type="email"
           name="email"
           placeholder="hello@schmiede.one"
+          required
         />
       </div>
 
@@ -39,6 +40,7 @@ export default function LoginForm() {
           type="password"
           name="password"
           placeholder="************"
+          required
         />
       </div>
 
