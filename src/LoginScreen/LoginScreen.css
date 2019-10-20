@@ -1,0 +1,23 @@
+.LoginScreen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 4rem);
+  background-image: url('./bg.png');
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.LoginScreen-Card {
+  width: 378px;
+  height: 436px;
+  box-shadow: -2px 0px 4px 0px rgba(0, 0, 0, .5);
+  background-color: rgb(31, 29, 39);
+  text-align: center;
+  color: white;
+}
+
+.LoginScreen-Heading {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
