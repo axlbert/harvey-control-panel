@@ -1,7 +1,8 @@
 import { Slider } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 
-import thumb from './thumb.png';
+import green from './thumb.png';
+import gray from './thumb-gray.png';
 
 const StyledSlider = withStyles({
   root: {
@@ -11,9 +12,12 @@ const StyledSlider = withStyles({
       marginTop: -14,
       marginLeft: -14,
       color: 'transparent',
-      backgroundImage: `url(${thumb})`,
-      backgroundRepeat: 'no-repeat',
+      backgroundImage: `url(${green})`,
+      backgroundSize: 'contain',
       boxShadow: 'none',
+    },
+    '&.Mui-disabled .MuiSlider-thumb': {
+      backgroundImage: `url(${gray})`,
     },
     '& .MuiSlider-rail': {
       height: 12,
