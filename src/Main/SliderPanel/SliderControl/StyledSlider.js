@@ -1,7 +1,7 @@
 import { Slider } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 
-import green from './thumb.png';
+import green from './thumb-green.png';
 import gray from './thumb-gray.png';
 
 const StyledSlider = withStyles({
