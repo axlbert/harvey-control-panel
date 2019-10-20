@@ -9,9 +9,11 @@
 }
 
 .LoginScreen-Card {
+  box-sizing: border-box;
   width: 378px;
   height: 436px;
-  box-shadow: -2px 0px 4px 0px rgba(0, 0, 0, .5);
+  padding: 0 3rem;
+  box-shadow: -2px 0px 4px 1px rgba(0, 0, 0, .5);
   background-color: rgb(31, 29, 39);
   text-align: center;
   color: white;

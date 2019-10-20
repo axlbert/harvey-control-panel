@@ -3,7 +3,6 @@ import React from 'react';
 import './LoginForm.css';
 import envelope from './envelope.png';
 import lock from './lock.png';
-import button from './button.png';
 
 export default function LoginForm() {
   function handleSubmit(e) {
@@ -28,7 +27,7 @@ export default function LoginForm() {
         />
       </div>
 
-      <div className="LoginForm-InputContainer" style={{ marginTop: '1.95rem' }}>
+      <div className="LoginForm-InputContainer" style={{ marginTop: '2rem' }}>
         <label className="LoginForm-InputLabel" htmlFor="password">
           <img src={lock} alt="Lock" />
           <span className="LoginForm-InputLabelText">
