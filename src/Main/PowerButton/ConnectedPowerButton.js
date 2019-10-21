@@ -1,17 +1,20 @@
 import { connect } from 'react-redux';
 
 import PowerButton from './PowerButton';
-import { webSocketConnect, webSocketToggle } from '../../actions';
+import { websocketConnect, websocketDisconnect } from '../../control-server/actions';
+
 
 const mapStateToProps = (state) => {
   return {
-    status: state.webSocketReadyState,
+    status: state.controlServer.status,
   };
 };
 
 function mapDispatchToProps(dispatch) {
   return {
-    onClick: () => dispatch(webSocketToggle()),
+    onClick: () => dispatch(websocketConnect()),
+    onConnect: () => dispatch(websocketConnect()),
+    onDisconnect: () => dispatch(websocketDisconnect()),
   };
 }
 
