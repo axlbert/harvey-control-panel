@@ -10,7 +10,7 @@ export default function ConnectedOnOffButton({ ...props }) {
   }
 
   return <OnOffButton
-    active={active}
+    pending={active}
     onClick={handleClick}
     {...props}
   />;
