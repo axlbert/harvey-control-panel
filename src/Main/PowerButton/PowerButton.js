@@ -8,8 +8,9 @@ import green from './onoff-green.png';
 export default function PowerButton({ status, onClick }) {
   function getButtonImage() {
     switch (status) {
-      case 1: return yellow;
-      case 2: return green;
+      case 0:
+      case 2: return yellow;
+      case 1: return green;
       default: return red;
     }
   }

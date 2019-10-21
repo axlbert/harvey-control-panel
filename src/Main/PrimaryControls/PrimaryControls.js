@@ -4,12 +4,12 @@ import './PrimaryControls.css';
 import ConnectedOnOffButton from '../OnOffButton/ConnectedOnOffButton';
 import AutoSteer from './AutoSteer/AutoSteer';
 import Directions from './Directions/Directions';
-import PowerButton from '../PowerButton/PowerButton';
+import ConnectedPowerButton from '../PowerButton/ConnectedPowerButton';
 
 export default function PrimaryControls() {
   return (
     <div className="PrimaryControls">
-      <PowerButton status={0} />
+      <ConnectedPowerButton />
 
       <AutoSteer />
 
