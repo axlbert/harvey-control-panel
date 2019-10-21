@@ -1,14 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
+import { createStore, applyMiddleware, combineReducers } from 'redux';
+import thunkMiddleware from 'redux-thunk';
 
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import appReducer from './app-reducer';
+import controlServer from './control-server/control-server';
 
-const store = createStore(appReducer);
+const store = createStore(
+  combineReducers({ controlServer }),
+  applyMiddleware(thunkMiddleware),
+);
 
 const root = document.getElementById('root');
 ReactDOM.render(
