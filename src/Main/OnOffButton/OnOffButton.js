@@ -2,8 +2,8 @@ import React from 'react';
 
 import './OnOffButton.css';
 import green from './on-off-green.png';
-import greenLarge from './onoff-green.png';
-import redLarge from './onoff-red.png';
+import greenLarge from './on-off-green-large.png';
+import redLarge from './on-off-red-large.png';
 import gray from './on-off-gray.png';
 import yellow from './onoff-yellow.png';
 
