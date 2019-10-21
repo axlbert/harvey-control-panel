@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <LoginScreen />
+      <PanelScreen />
     </div>
   );
 }
