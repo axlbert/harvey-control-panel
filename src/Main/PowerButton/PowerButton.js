@@ -5,9 +5,13 @@ import red from './onoff-red.png';
 import yellow from './onoff-yellow.png';
 import green from './onoff-green.png';
 
-export default function PowerButton({ onClick }) {
+export default function PowerButton({ status, onClick }) {
   function getButtonImage() {
-    return red;
+    switch (status) {
+      case 1: return yellow;
+      case 2: return green;
+      default: return red;
+    }
   }
 
   return (

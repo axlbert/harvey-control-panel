@@ -9,7 +9,7 @@ import PowerButton from '../PowerButton/PowerButton';
 export default function PrimaryControls() {
   return (
     <div className="PrimaryControls">
-      <PowerButton />
+      <PowerButton status={0} />
 
       <AutoSteer />
 
